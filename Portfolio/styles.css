@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+header, main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 1em;
+    border-bottom: 2px solid #2d3c49;
+}
+
+.identify {
+    width.100%;    
+}
+
+.udacity-logo {
+    width: 25%;
+    float: left;
+}
+
+.name, .description {
+    text-align: right;
+    width: 75%;
+    font-weight: 200;
+    margin: 0 0 0 auto;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.main-image {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+.code {
+    width:90%;
+    margin: auto;
+}
+
+.projects-intro {
+    width: 100%;
+    padding: 0.5em;
+}
+
+.projects-caption {
+    color: #7d97ad;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 960px) {
+    .projects {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+.first-project, .second-project, .third-project {
+    text-align: center;
+    margin: 4px;
+    width: 100%;
+}
+
+.project-photo {
+    height: 225px;
+    width: auto;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 0.6em;
+}
+
+footer {
+    display: flex;
+    min-width: 60% 
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.footnote {
+    font-size: 0.6em;
+    font-weight: 100;
+    text-align: center
+}
